@@ -19,7 +19,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: bankapp
-        image: srinath/bankapp:latest  # Image name updated to lowercase
+        image: srinath999/bankapp:latest  # Image name updated to lowercase
         ports:
         - containerPort: 8080
         env:
